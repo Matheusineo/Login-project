@@ -21,23 +21,17 @@ namespace Login_project
         {
             if(txtEmail.Text == "emailtop@123.com" && txtPassword.Text == "123456")
                 {
-                   this.Hide();
-
-                Loginform forminitial = new Loginform2();
-                forminitial.ShowDialog();
-
-                    
+                MessageBox.Show("Seja bem vindo usuario.");
                 }
+            else
+            {
+                MessageBox.Show("Informações invalidas.");
+            }
         }
 
         private void txtEmail_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        public static implicit operator Loginform(Loginform2 v)
-        {
-            throw new NotImplementedException();
         }
     }
 }

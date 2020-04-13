@@ -59,7 +59,10 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(172, 20);
             this.txtEmail.TabIndex = 1;
+            this.txtEmail.Text = "\r\n";
             this.txtEmail.TextChanged += new System.EventHandler(this.txtEmail_TextChanged);
+            this.txtEmail.Enter += new System.EventHandler(this.txtEmail_TextChanged);
+            this.txtEmail.Leave += new System.EventHandler(this.txtEmail_TextChanged);
             // 
             // txtPassword
             // 
@@ -157,7 +160,7 @@
             this.btnEnter.UseVisualStyleBackColor = false;
             this.btnEnter.Click += new System.EventHandler(this.btnEnter_Click);
             // 
-            // Form1
+            // Loginform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -175,7 +178,7 @@
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.lblUseroremail);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Name = "Form1";
+            this.Name = "Loginform";
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

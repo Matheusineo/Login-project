@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Loginform2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Loginform2.Designer.cs">
-      <DependentUpon>Loginform2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Loginform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,9 +56,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Loginform.resx">
       <DependentUpon>Loginform.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Loginform2.resx">
-      <DependentUpon>Loginform2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
